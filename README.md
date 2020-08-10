@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ https://user-directory-194.herokuapp.com/
 
-## Available Scripts
 
-In the project directory, you can run:
+Overview
+For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
-### `npm start`
+User Story
+As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+Business Context
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Acceptance Criteria
+Given a table of random users, when the user loads the page, a table of employees should render.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The user should be able to:
 
-### `npm test`
+Sort the table by at least one category
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Filter the users by at least one property.
 
-### `npm run build`
+Commit Early and Often
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these guidelines for committing:
 
-### `npm run eject`
+Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Test your application before you commit to ensure functionality at every step in the development process
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Learn More
+Submission on BCS
+You are required to submit the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+the URL to the deployed application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+the URL to the Github repository
